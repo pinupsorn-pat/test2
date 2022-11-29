@@ -1,0 +1,150 @@
+body {
+    background-color: #f2f2f2;
+      font-family: "Lato";
+      font-weight: 300;
+      font-size: 16px;
+      color: #555;
+  
+      -webkit-font-smoothing: antialiased;
+      -webkit-overflow-scrolling: touch;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 200;
+	font-size: 30;
+    color: rgb(20, 20, 20);
+}
+
+
+
+
+.me-container{
+    
+    display: flex;
+    flex-direction: row; /* จัดแรงแบบแถวแนวนอน */
+    flex-wrap: nowrap; /* ถ้ารูปเต็มหน้าจอมันจะดันลงล่างอัตโนมัติ */
+    justify-content: space-evenly;/* มีพื้นที่ชองว่างเท่ากันทุกด้าน หรือซ้ายขวาไม่แน่ใจ justify=แกนyแนวนอน*/
+    align-items: flex-start ; /* อยู่ตรงกลางแนวนอน align แนวตั้ง*/
+    background-color:rgb(201, 208, 216);
+   
+    padding: 25px;
+    font-size: 18px;
+}
+
+item-2 {
+    width: 50px;
+    color: coral;
+}
+
+
+
+
+
+
+
+div.img-resize {
+    width: 160px;
+    height: 213px;
+    
+}
+
+#itemwrap {
+  
+	background: url(item-bg.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:70px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 350px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.pic-container {
+    display: grid;
+    flex-direction: row;
+    grid: auto auto / auto auto ;
+    grid-gap: 10px;
+    background-color: rgb(201, 208, 216);
+    padding: 20px;
+    justify-content: space-evenly;/* มีพื้นที่ชองว่างเท่ากันทุกด้าน หรือซ้ายขวาไม่แน่ใจ justify=แกนyแนวนอน*/
+    align-items: flex-start ; /* อยู่ตรงกลางแนวนอน align แนวตั้ง*/
+    flex-wrap: wrap; /* ถ้ารูปเต็มหน้าจอมันจะดันลงล่างอัตโนมัติ */
+    
+    
+}
+
+.grid-item11 {
+  
+    text-align: start;
+    padding: 20px;
+    font-size: 15px;
+   width: 100%;
+   justify-content: space-evenly;/* มีพื้นที่ชองว่างเท่ากันทุกด้าน หรือซ้ายขวาไม่แน่ใจ justify=แกนyแนวนอน*/
+    align-items: flex-start ; /* อยู่ตรงกลางแนวนอน align แนวตั้ง*/
+   
+} 
+
+grid-item1 {
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+ .pic {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+    column-gap: 10px;
+    row-gap: 10px;
+    
+    
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/*  .pic {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 500px));
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+} */

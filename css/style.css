@@ -1,0 +1,23 @@
+#columns {
+     column-width: 400px;
+     column-gap: 20px;
+     width: 100%;
+     max-width: 1100px;
+    margin: 50px auto;
+    
+    
+    
+}
+
+
+
+
+#columns figure img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.columns .popup-imge{
+
+}
